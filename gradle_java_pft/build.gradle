@@ -1,5 +1,11 @@
+
 plugins {
     id 'java'
+    id 'application'
+}
+
+application {
+    mainClass = 'gradle_java_pft.src.main.java.Main.java'
 }
 
 group 'org.example'
